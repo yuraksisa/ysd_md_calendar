@@ -9,6 +9,7 @@ module Yito
 
          property :id, Serial
          property :name, String, :length => 80
+         property :description, String, :length => 80
 
          has n, :calendar_events, 'Yito::Model::Calendar::Event', :constraint => :destroy 
 
