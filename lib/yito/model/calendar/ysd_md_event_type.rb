@@ -11,7 +11,8 @@ module Yito
         storage_names[:default] = 'cal_event_type'
 
         property :id, Serial
-        property :name, String, :length => 80      
+        property :name, String, :length => 80
+        property :description, String, :length => 80      
 
       end
     end
