@@ -50,7 +50,7 @@ module Yito
         end
 
         def check_event_type!
-          if self.event_type and (not self.event_type.saved?) and loaded_event_type = Calendar.get(self.event_type.id)
+          if self.event_type and (not self.event_type.saved?) and loaded_event_type = EventType.get(self.event_type.id)
             self.event_type = loaded_event_type
           end
         end
