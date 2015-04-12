@@ -1,3 +1,6 @@
 require 'yito/model/calendar/ysd_md_calendar'
 require 'yito/model/calendar/ysd_md_event'
 require 'yito/model/calendar/ysd_md_event_type'
+require 'yito/model/calendar/ysd_md_timetable_fieldset'
+require 'yito/model/calendar/ysd_md_timetable_detailed_fieldset'
+require 'yito/model/calendar/ysd_md_timetable'
