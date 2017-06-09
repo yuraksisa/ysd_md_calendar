@@ -10,8 +10,9 @@ module Yito
 
         storage_names[:default] = 'cal_event_type_calendar'
 
-        belongs_to :calendar, 'Calendar'
-        belongs_to :event_type, 'EventType'
+        belongs_to :calendar, 'Calendar', key: true
+        belongs_to :event_type, 'EventType', key: true
+        
   	  end
   	end
   end
